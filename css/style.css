@@ -1,0 +1,172 @@
+* {box-sizing: border-box;}
+
+body{
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+    height: 400px;
+    background-image: url("https://i.pinimg.com/236x/bc/af/37/bcaf37ba1cd5f6a12ca327a017260675.jpg");
+    
+    background-repeat:inherit;
+    background-size:cover;
+  }
+  
+  header{
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48, 0.3);
+  }
+  
+  header img {
+    width: 200px;
+    }
+    
+    
+    header nav{
+        float: right;
+        margin-top: 10px;
+      }
+      
+      
+      header nav a {
+        color: rgb(17, 17, 17);
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 10px 15px;
+       }
+      
+       header nav a.active {
+        background: #34eeee;
+        border-radius: 5px;
+        border-radius: 7px;
+      }
+
+      #home {
+        text-align: center;
+        padding: 90px 0 40px;
+      }
+      
+  #home h1{
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+
+  #home .divider {
+    width counter-reset: 30px;
+    border-top: 5px solid #fed136;
+    margin: 0.auto;
+  }
+  
+  #home p{
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+   #home .social a {
+     color:rgb(175, 28, 9);
+     display: inline-block;
+     border-radius: 50%;
+     background-color:  rgb(190, 179, 179);
+     font-size: 24px;
+     font-weight: bold;
+     height: 50px;
+     width: 50px;
+     line-height: 50px;
+     margin-right: 10px;
+     -webkit-transition: all .3s;
+     -moz-transition: all .3s;
+     transition:all 3s;
+   }
+  
+   #home .social a:hover {
+     background-color: #fed136;
+   }
+  
+   section  {
+       padding: 40px;
+   }
+   
+   section h2{
+       font-size: 32px;
+       text-align: center;
+       border-image: 2px;
+   }
+
+   section p{
+       text-align: center;
+       font-size: 24px;
+       margin-top: 40px;
+   }
+
+   section .box{
+       align-items: center;
+       
+   }
+
+   img{
+    display: block;
+    margin: 0px auto;
+    border: black 8px;
+    padding-inline: 3px;
+   }
+
+  h1{
+      text-align: center;
+      font-size: 55px;
+  }
+
+  #contacto {
+    
+    background-image: https('https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  
+#contacto{
+    color: black;
+  }
+  
+  #contacto input{
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #contacto textarea{
+    margin: 20px 0;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  #contacto button {
+    background-color: #fed136;
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  
+footer {
+    padding: 90px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
